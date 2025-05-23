@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pipenv, poetry, conda
+Pipfile.lock
+poetry.lock
+*.egg-info/
+.eggs/
+*.egg
+*.envrc
+
+# macOS / Linux / Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Test / coverage / reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+htmlcov/
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# mypy / pyright / pylint
+.mypy_cache/
+.pyright/
+.pyre/
+.dmypy.json
+.pytype/
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# FastAPI / Uvicorn reload
+*.pid
+
+# Uploads / temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# dotenv files (credentials, keys, secrets)
+.env
+.env.*
+!.env.example
+
+# Database files
+*.sqlite3
+*.db
+
+# Coverage reports
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker / container related
+Dockerfile
+docker-compose.yml
+*.container
+*.tar
+
+# VSCode Python extension cache
+.python-version
+
+# Celery beat schedule
+celerybeat-schedule
+
+# AWS / cloud credentials
+*.pem
+.aws/
+
+# Local R2 / S3 config if any
+*.r2config
+
+# Optional: remove PDFs or other uploads
+# uploads/
+# *.pdf
