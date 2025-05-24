@@ -209,7 +209,7 @@ def add_qr_to_pdf(pdf_data: bytes, positions: List[dict], qr_data: str, certific
             # Add certificate ID (compacted format)
             page.insert_text(
                 point=(adjusted_x, text_y + 10),
-                text=f"Certificate: {certificate_id}",
+                text=f"{certificate_id}",
                 fontsize=6
             )
     
